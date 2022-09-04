@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 955px;
+}
+
+header {
+    padding: 30px 0;
+    margin: 40px 0 12px 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: end;
+}
+
+header ul li {
+    list-style: none;
+    padding: 18px 0;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 58px;
+    transition: 0.2s;
+}
+
+header ul li a:hover {
+    color: #638eff;
+}
+
+.login-link {
+    font-weight: 700;
+    color: #638eff;
+}
+
+.logo {
+    float: left;
+}
+
+.main-text-area {
+    box-shadow: 0 21px 33px 0 rgb(0 0 0 / 10%);
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 100%;
+}
+
+.side-bar {
+    position: relative;
+    padding: 23px 38px 29px 128px;
+    background-color: white;
+}
+
+.main-tabs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75px;
+    background-color: #f8f8f8;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 28px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.app-content {
+    cursor: pointer;
+    height: 93px;
+    background-color: #fffefe;
+}
+
+.app-content img {
+    margin: 24px;
+}
+
+.file-content {
+    cursor: pointer;
+    transition: 0.2s;
+    height: 93px
+}
+
+.file-content img {
+    margin: 24px;
+}
+
+.file-content:hover {
+    background-color: white;
+
+}
+
+textarea {
+    font-size: 22px;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    min-height: 216px;
+    outline: none;
+    height: 221px;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submit {
+    text-align: right;
+}
+
+.submit input {
+    width: 230px;
+    font-size: 24px;
+    opacity: .21;
+    height: 61px;
+    color: #000;
+    font-style: italic;
+    font-weight: 700;
+    background: #fff;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.submit input:hover{
+    opacity: 100%;
+
+}
+
+footer {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+.social-logo {
+    margin: 38px auto;
+}
+
+.social-logo img {
+    width: 33px;
+    opacity: .40;
+    margin-right: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.social-logo img:hover {
+    opacity: 100%;
+}

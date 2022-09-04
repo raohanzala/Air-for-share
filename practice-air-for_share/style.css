@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 955px;
+    margin: auto;
+}
+
+header {
+    height: 110px;
+    margin: 46px auto 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar {
+    margin-left : 179px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar ul li {
+    list-style: none;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    margin-left: 58px;
+    font-size: 14px;
+    color: #4a4a4a;
+    transition: 0.2s;
+}
+
+header ul li a:hover {
+    color: #638eff;
+}
+
+.login-link {
+    color: #638eff;
+    font-weight: 700;
+}
+
+.main-text-area {
+    box-shadow: 0 21px 33px 0 rgb(0 0 0 / 10%);
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+}
+
+.side-bar {
+    padding: 23px 28px 29px 129px;
+    position: relative;
+}
+
+.main-tabs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75px;
+    background-color: #f8f8f8;
+}
+
+.content-tab {
+    height: 93px;
+    background-color: white;
+}
+
+.content-tab img {
+    margin: 24px;
+}
+
+.file-tab {
+    height: 93px;
+}
+
+.file-tab img {
+    margin: 24px;
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+#text-area {
+    resize: none;
+    border: none;
+    outline: none;
+    height: 221px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
